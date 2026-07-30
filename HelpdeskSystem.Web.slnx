@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="HelpdeskSystem.Application/HelpdeskSystem.Application.csproj" />
+  <Project Path="HelpdeskSystem.Domain/HelpdeskSystem.Domain.csproj" />
+  <Project Path="HelpdeskSystem.Infrastructure/HelpdeskSystem.Infrastructure.csproj" />
+  <Project Path="HelpdeskSystem.Web/HelpdeskSystem.Web.csproj" />
+</Solution>

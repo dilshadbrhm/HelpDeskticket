@@ -1,0 +1,130 @@
+﻿@page "/admin-dashboard"
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Identity
+@using HelpdeskSystem.Infrastructure.Identity
+@using HelpdeskSystem.Application.Interfaces
+@using HelpdeskSystem.Application.DTOs
+@attribute [Authorize(Roles = "Admin")]
+@rendermode InteractiveServer
+@inject ITicketStatsService StatsService
+@inject UserManager<ApplicationUser> UserManager
+
+<PageTitle>Statistika</PageTitle>
+
+<h3>Statistika Paneli</h3>
+
+@if (stats == null)
+{
+    <p>Yüklənir...</p>
+}
+else
+{
+    <div class="row mb-4">
+        <div class="col-md-2">
+            <div class="card text-center p-3">
+                <h5>Ümumi</h5>
+                <h2>@stats.TotalTickets</h2>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card text-center p-3">
+                <h5>Açıq</h5>
+                <h2>@stats.OpenTickets</h2>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card text-center p-3">
+                <h5>Baxılır</h5>
+                <h2>@stats.InProgressTickets</h2>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card text-center p-3">
+                <h5>Həll olundu</h5>
+                <h2>@stats.ResolvedTickets</h2>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card text-center p-3">
+                <h5>Bağlandı</h5>
+                <h2>@stats.ClosedTickets</h2>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card text-center p-3">
+                <h5>Orta Həll Vaxtı</h5>
+                <h2>@stats.AverageResolutionHours.ToString("0.0") saat</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <h5>Kateqoriyaya görə</h5>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Kateqoriya</th>
+                        <th>Say</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var cat in stats.CategoryStats)
+                    {
+                        <tr>
+                            <td>@cat.CategoryName</td>
+                            <td>@cat.Count</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-md-6">
+            <h5>Agentlərə görə</h5>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Agent</th>
+                        <th>Təyin olunub</th>
+                        <th>Həll olunub</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var agent in stats.AgentStats)
+                    {
+                        <tr>
+                            <td>@GetAgentName(agent.AgentName)</td>
+                            <td>@agent.AssignedCount</td>
+                            <td>@agent.ResolvedCount</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+}
+
+@code {
+    private TicketStatsDto? stats;
+    private Dictionary<string, string> agentNames = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        stats = await StatsService.GetStatsAsync();
+
+        foreach (var agentStat in stats.AgentStats)
+        {
+            var user = await UserManager.FindByIdAsync(agentStat.AgentName);
+            if (user != null)
+            {
+                agentNames[agentStat.AgentName] = user.FullName;
+            }
+        }
+    }
+
+    private string GetAgentName(string agentId)
+    {
+        return agentNames.TryGetValue(agentId, out var name) ? name : agentId;
+    }
+}

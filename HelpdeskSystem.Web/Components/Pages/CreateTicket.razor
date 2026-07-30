@@ -1,0 +1,113 @@
+﻿@page "/create-ticket"
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Identity
+@using HelpdeskSystem.Infrastructure.Identity
+@using HelpdeskSystem.Application.Interfaces
+@using HelpdeskSystem.Domain.Entities
+@using Microsoft.AspNetCore.SignalR
+@using HelpdeskSystem.Domain.Enums
+@attribute [Authorize(Roles = "Employee")]
+@rendermode InteractiveServer
+@inject ITicketRepository TicketRepository
+@inject ITicketCategoryRepository CategoryRepository
+@inject UserManager<ApplicationUser> UserManager
+@inject AuthenticationStateProvider AuthProvider
+@inject NavigationManager NavManager
+@using Microsoft.AspNetCore.SignalR
+@inject IHubContext<HelpdeskSystem.Web.Hubs.NotificationHub> HubContext
+
+
+<PageTitle>Yeni Tiket</PageTitle>
+
+<h3>Yeni Tiket Yarat</h3>
+
+<EditForm Model="model" OnValidSubmit="HandleCreate" FormName="CreateTicketForm">
+    <DataAnnotationsValidator />
+
+    <div class="mb-3">
+        <label>Başlıq</label>
+        <InputText @bind-Value="model.Title" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Təsvir</label>
+        <InputTextArea @bind-Value="model.Description" class="form-control" rows="4" />
+    </div>
+
+    <div class="mb-3">
+        <label>Kateqoriya</label>
+        <InputSelect @bind-Value="model.CategoryId" class="form-control">
+            <option value="0">-- Seç --</option>
+            @foreach (var category in categories)
+            {
+                <option value="@category.Id">@category.Name</option>
+            }
+        </InputSelect>
+    </div>
+
+    <div class="mb-3">
+        <label>Prioritet</label>
+        <InputSelect @bind-Value="model.Priority" class="form-control">
+            <option value="@TicketPriority.Low">Aşağı</option>
+            <option value="@TicketPriority.Medium">Orta</option>
+            <option value="@TicketPriority.High">Yüksək</option>
+            <option value="@TicketPriority.Critical">Kritik</option>
+        </InputSelect>
+    </div>
+
+    @if (!string.IsNullOrEmpty(message))
+    {
+        <p class="text-success">@message</p>
+    }
+
+    <button type="submit" class="btn btn-primary">Tiket Yarat</button>
+</EditForm>
+
+@code {
+    private CreateTicketModel model = new();
+    private List<TicketCategory> categories = new();
+    private string? message;
+
+    public class CreateTicketModel
+    {
+        public string Title { get; set; } = string.Empty;
+        public string Description { get; set; } = string.Empty;
+        public int CategoryId { get; set; }
+        public TicketPriority Priority { get; set; } = TicketPriority.Medium;
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        categories = await CategoryRepository.GetAllAsync();
+    }
+
+    private async Task HandleCreate()
+    {
+        var authState = await AuthProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+        var userId = UserManager.GetUserId(user);
+
+        if (userId == null || model.CategoryId == 0)
+        {
+            message = "Zəhmət olmasa bütün sahələri doldurun";
+            return;
+        }
+
+        var ticket = new Ticket
+        {
+            Title = model.Title,
+            Description = model.Description,
+            CategoryId = model.CategoryId,
+            Priority = model.Priority,
+            CreatedByUserId = userId,
+            Status = TicketStatus.Open,
+            CreatedAt = DateTime.Now
+        };
+
+        await TicketRepository.CreateAsync(ticket);
+
+        await HubContext.Clients.Group("Agents").SendAsync("NewTicket", ticket.Title);
+        message = "Tiket uğurla yaradıldı!";
+        model = new();
+    }
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "HelpdeskSystem.Web.IdentityEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapIdentityEndpoints\u003Eb__0_0",
+    "RelativePath": "Account/Login",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HelpdeskSystem.Web.IdentityEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapIdentityEndpoints\u003Eb__0_1",
+    "RelativePath": "Account/Logout",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

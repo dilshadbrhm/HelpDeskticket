@@ -1,0 +1,67 @@
+﻿@page "/my-tickets"
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Identity
+@using HelpdeskSystem.Infrastructure.Identity
+@using HelpdeskSystem.Application.Interfaces
+@using HelpdeskSystem.Domain.Entities
+@attribute [Authorize(Roles = "Employee")]
+@rendermode InteractiveServer
+@inject ITicketRepository TicketRepository
+@inject UserManager<ApplicationUser> UserManager
+@inject AuthenticationStateProvider AuthProvider
+@inject NavigationManager NavManager
+
+<PageTitle>Mənim Tiketlərim</PageTitle>
+
+<h3>Mənim Tiketlərim</h3>
+
+@if (tickets == null)
+{
+    <p>Yüklənir...</p>
+}
+else if (!tickets.Any())
+{
+    <p>Hələ heç bir tiket yaratmamısınız.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Başlıq</th>
+                <th>Kateqoriya</th>
+                <th>Prioritet</th>
+                <th>Status</th>
+                <th>Tarix</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var ticket in tickets)
+            {
+                <tr>
+                    <td><a href="/ticket/@ticket.Id">@ticket.Title</a></td>
+                    <td>@ticket.Category?.Name</td>
+                    <td>@ticket.Priority</td>
+                    <td>@ticket.Status</td>
+                    <td>@ticket.CreatedAt.ToString("dd.MM.yyyy HH:mm")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Ticket>? tickets;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authState = await AuthProvider.GetAuthenticationStateAsync();
+        var user = authState.User;
+        var userId = UserManager.GetUserId(user);
+
+        if (userId != null)
+        {
+            tickets = await TicketRepository.GetByUserAsync(userId);
+        }
+    }
+}

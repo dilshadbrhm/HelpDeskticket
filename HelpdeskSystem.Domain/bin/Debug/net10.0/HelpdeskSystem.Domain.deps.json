@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "HelpdeskSystem.Domain/1.0.0": {
+        "runtime": {
+          "HelpdeskSystem.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HelpdeskSystem.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

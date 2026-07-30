@@ -1,0 +1,88 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using HelpdeskSystem.Infrastructure.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+
+<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">Helpdesk Sistemi</a>
+    </div>
+</div>
+
+<input type="checkbox" title="Naviqasiya menyusunu göstər" class="navbar-toggler" />
+
+<div class="nav-scrollable">
+    <nav class="flex-column">
+        <AuthorizeView Context="context">
+            <Authorized>
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                        Əsas səhifə
+                    </NavLink>
+                </div>
+
+                @if (context.User.IsInRole("Employee"))
+                {
+                    <div class="nav-item px-3">
+                        <NavLink class="nav-link" href="my-tickets">
+                            Mənim Tiketlərim
+                        </NavLink>
+                    </div>
+                    <div class="nav-item px-3">
+                        <NavLink class="nav-link" href="create-ticket">
+                            Yeni Tiket
+                        </NavLink>
+                    </div>
+                }
+
+                @if (context.User.IsInRole("Agent"))
+                {
+                    <div class="nav-item px-3">
+                        <NavLink class="nav-link" href="assigned-tickets">
+                            Mənə Təyin Olunanlar
+                        </NavLink>
+                    </div>
+                    <div class="nav-item px-3">
+                        <NavLink class="nav-link" href="all-tickets">
+                            Bütün Tiketlər
+                        </NavLink>
+                    </div>
+                }
+
+                @if (context.User.IsInRole("Admin"))
+                {
+                    <div class="nav-item px-3">
+                        <NavLink class="nav-link" href="all-tickets">
+                            Bütün Tiketlər
+                        </NavLink>
+                    </div>
+                    <div class="nav-item px-3">
+                        <NavLink class="nav-link" href="admin-dashboard">
+                            Statistika
+                        </NavLink>
+                    </div>
+                }
+
+                <div class="nav-item px-3">
+                    <span class="nav-link">
+                        Salam, @context.User.Identity?.Name
+                    </span>
+                </div>
+
+                <div class="nav-item px-3">
+                    <form method="post" action="/Account/Logout">
+                        <button type="submit" class="nav-link btn btn-link text-start w-100">
+                            Çıxış
+                        </button>
+                    </form>
+                </div>
+            </Authorized>
+            <NotAuthorized>
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link" href="login">
+                        Daxil ol
+                    </NavLink>
+                </div>
+            </NotAuthorized>
+        </AuthorizeView>
+    </nav>
+</div>

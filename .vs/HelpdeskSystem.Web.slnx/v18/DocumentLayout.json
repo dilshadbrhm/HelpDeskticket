@@ -1,0 +1,682 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C843E780-5738-31A6-0BAA-5BB2416244D2}|HelpdeskSystem.Web\\HelpdeskSystem.Web.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C843E780-5738-31A6-0BAA-5BB2416244D2}|HelpdeskSystem.Web\\HelpdeskSystem.Web.csproj|solutionrelative:helpdesksystem.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C843E780-5738-31A6-0BAA-5BB2416244D2}|HelpdeskSystem.Web\\HelpdeskSystem.Web.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.web\\reportendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C843E780-5738-31A6-0BAA-5BB2416244D2}|HelpdeskSystem.Web\\HelpdeskSystem.Web.csproj|solutionrelative:helpdesksystem.web\\reportendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD57EF10-9845-1161-34B6-08DBDE328E9A}|HelpdeskSystem.Infrastructure\\HelpdeskSystem.Infrastructure.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.infrastructure\\services\\pdfreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD57EF10-9845-1161-34B6-08DBDE328E9A}|HelpdeskSystem.Infrastructure\\HelpdeskSystem.Infrastructure.csproj|solutionrelative:helpdesksystem.infrastructure\\services\\pdfreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE5D6C9-63FE-4411-C0C9-B24CDB02372D}|HelpdeskSystem.Application\\HelpdeskSystem.Application.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.application\\interfaces\\ipdfreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE5D6C9-63FE-4411-C0C9-B24CDB02372D}|HelpdeskSystem.Application\\HelpdeskSystem.Application.csproj|solutionrelative:helpdesksystem.application\\interfaces\\ipdfreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD57EF10-9845-1161-34B6-08DBDE328E9A}|HelpdeskSystem.Infrastructure\\HelpdeskSystem.Infrastructure.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.infrastructure\\helpdesksystem.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CD57EF10-9845-1161-34B6-08DBDE328E9A}|HelpdeskSystem.Infrastructure\\HelpdeskSystem.Infrastructure.csproj|solutionrelative:helpdesksystem.infrastructure\\helpdesksystem.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C843E780-5738-31A6-0BAA-5BB2416244D2}|HelpdeskSystem.Web\\HelpdeskSystem.Web.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.web\\components\\pages\\createticket.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C843E780-5738-31A6-0BAA-5BB2416244D2}|HelpdeskSystem.Web\\HelpdeskSystem.Web.csproj|solutionrelative:helpdesksystem.web\\components\\pages\\createticket.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C843E780-5738-31A6-0BAA-5BB2416244D2}|HelpdeskSystem.Web\\HelpdeskSystem.Web.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.web\\helpdesksystem.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C843E780-5738-31A6-0BAA-5BB2416244D2}|HelpdeskSystem.Web\\HelpdeskSystem.Web.csproj|solutionrelative:helpdesksystem.web\\helpdesksystem.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C843E780-5738-31A6-0BAA-5BB2416244D2}|HelpdeskSystem.Web\\HelpdeskSystem.Web.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.web\\components\\pages\\alltickets.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C843E780-5738-31A6-0BAA-5BB2416244D2}|HelpdeskSystem.Web\\HelpdeskSystem.Web.csproj|solutionrelative:helpdesksystem.web\\components\\pages\\alltickets.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C843E780-5738-31A6-0BAA-5BB2416244D2}|HelpdeskSystem.Web\\HelpdeskSystem.Web.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.web\\hubs\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C843E780-5738-31A6-0BAA-5BB2416244D2}|HelpdeskSystem.Web\\HelpdeskSystem.Web.csproj|solutionrelative:helpdesksystem.web\\hubs\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C843E780-5738-31A6-0BAA-5BB2416244D2}|HelpdeskSystem.Web\\HelpdeskSystem.Web.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.web\\components\\pages\\mytickets.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C843E780-5738-31A6-0BAA-5BB2416244D2}|HelpdeskSystem.Web\\HelpdeskSystem.Web.csproj|solutionrelative:helpdesksystem.web\\components\\pages\\mytickets.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C843E780-5738-31A6-0BAA-5BB2416244D2}|HelpdeskSystem.Web\\HelpdeskSystem.Web.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.web\\components\\pages\\ticketdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C843E780-5738-31A6-0BAA-5BB2416244D2}|HelpdeskSystem.Web\\HelpdeskSystem.Web.csproj|solutionrelative:helpdesksystem.web\\components\\pages\\ticketdetails.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C843E780-5738-31A6-0BAA-5BB2416244D2}|HelpdeskSystem.Web\\HelpdeskSystem.Web.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.web\\components\\pages\\admindashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C843E780-5738-31A6-0BAA-5BB2416244D2}|HelpdeskSystem.Web\\HelpdeskSystem.Web.csproj|solutionrelative:helpdesksystem.web\\components\\pages\\admindashboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE5D6C9-63FE-4411-C0C9-B24CDB02372D}|HelpdeskSystem.Application\\HelpdeskSystem.Application.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.application\\services\\ticketstatsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE5D6C9-63FE-4411-C0C9-B24CDB02372D}|HelpdeskSystem.Application\\HelpdeskSystem.Application.csproj|solutionrelative:helpdesksystem.application\\services\\ticketstatsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE5D6C9-63FE-4411-C0C9-B24CDB02372D}|HelpdeskSystem.Application\\HelpdeskSystem.Application.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.application\\interfaces\\iticketstatsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE5D6C9-63FE-4411-C0C9-B24CDB02372D}|HelpdeskSystem.Application\\HelpdeskSystem.Application.csproj|solutionrelative:helpdesksystem.application\\interfaces\\iticketstatsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE5D6C9-63FE-4411-C0C9-B24CDB02372D}|HelpdeskSystem.Application\\HelpdeskSystem.Application.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.application\\dtos\\ticketstatsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE5D6C9-63FE-4411-C0C9-B24CDB02372D}|HelpdeskSystem.Application\\HelpdeskSystem.Application.csproj|solutionrelative:helpdesksystem.application\\dtos\\ticketstatsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE5D6C9-63FE-4411-C0C9-B24CDB02372D}|HelpdeskSystem.Application\\HelpdeskSystem.Application.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.application\\helpdesksystem.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6CE5D6C9-63FE-4411-C0C9-B24CDB02372D}|HelpdeskSystem.Application\\HelpdeskSystem.Application.csproj|solutionrelative:helpdesksystem.application\\helpdesksystem.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD57EF10-9845-1161-34B6-08DBDE328E9A}|HelpdeskSystem.Infrastructure\\HelpdeskSystem.Infrastructure.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.infrastructure\\persistence\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD57EF10-9845-1161-34B6-08DBDE328E9A}|HelpdeskSystem.Infrastructure\\HelpdeskSystem.Infrastructure.csproj|solutionrelative:helpdesksystem.infrastructure\\persistence\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C843E780-5738-31A6-0BAA-5BB2416244D2}|HelpdeskSystem.Web\\HelpdeskSystem.Web.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.web\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C843E780-5738-31A6-0BAA-5BB2416244D2}|HelpdeskSystem.Web\\HelpdeskSystem.Web.csproj|solutionrelative:helpdesksystem.web\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C843E780-5738-31A6-0BAA-5BB2416244D2}|HelpdeskSystem.Web\\HelpdeskSystem.Web.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.web\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C843E780-5738-31A6-0BAA-5BB2416244D2}|HelpdeskSystem.Web\\HelpdeskSystem.Web.csproj|solutionrelative:helpdesksystem.web\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C843E780-5738-31A6-0BAA-5BB2416244D2}|HelpdeskSystem.Web\\HelpdeskSystem.Web.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.web\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C843E780-5738-31A6-0BAA-5BB2416244D2}|HelpdeskSystem.Web\\HelpdeskSystem.Web.csproj|solutionrelative:helpdesksystem.web\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C843E780-5738-31A6-0BAA-5BB2416244D2}|HelpdeskSystem.Web\\HelpdeskSystem.Web.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.web\\identityendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C843E780-5738-31A6-0BAA-5BB2416244D2}|HelpdeskSystem.Web\\HelpdeskSystem.Web.csproj|solutionrelative:helpdesksystem.web\\identityendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C843E780-5738-31A6-0BAA-5BB2416244D2}|HelpdeskSystem.Web\\HelpdeskSystem.Web.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.web\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C843E780-5738-31A6-0BAA-5BB2416244D2}|HelpdeskSystem.Web\\HelpdeskSystem.Web.csproj|solutionrelative:helpdesksystem.web\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD57EF10-9845-1161-34B6-08DBDE328E9A}|HelpdeskSystem.Infrastructure\\HelpdeskSystem.Infrastructure.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.infrastructure\\migrations\\20260730064409_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD57EF10-9845-1161-34B6-08DBDE328E9A}|HelpdeskSystem.Infrastructure\\HelpdeskSystem.Infrastructure.csproj|solutionrelative:helpdesksystem.infrastructure\\migrations\\20260730064409_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C843E780-5738-31A6-0BAA-5BB2416244D2}|HelpdeskSystem.Web\\HelpdeskSystem.Web.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C843E780-5738-31A6-0BAA-5BB2416244D2}|HelpdeskSystem.Web\\HelpdeskSystem.Web.csproj|solutionrelative:helpdesksystem.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD57EF10-9845-1161-34B6-08DBDE328E9A}|HelpdeskSystem.Infrastructure\\HelpdeskSystem.Infrastructure.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.infrastructure\\repositories\\ticketcommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD57EF10-9845-1161-34B6-08DBDE328E9A}|HelpdeskSystem.Infrastructure\\HelpdeskSystem.Infrastructure.csproj|solutionrelative:helpdesksystem.infrastructure\\repositories\\ticketcommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD57EF10-9845-1161-34B6-08DBDE328E9A}|HelpdeskSystem.Infrastructure\\HelpdeskSystem.Infrastructure.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.infrastructure\\repositories\\ticketcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD57EF10-9845-1161-34B6-08DBDE328E9A}|HelpdeskSystem.Infrastructure\\HelpdeskSystem.Infrastructure.csproj|solutionrelative:helpdesksystem.infrastructure\\repositories\\ticketcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD57EF10-9845-1161-34B6-08DBDE328E9A}|HelpdeskSystem.Infrastructure\\HelpdeskSystem.Infrastructure.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.infrastructure\\repositories\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD57EF10-9845-1161-34B6-08DBDE328E9A}|HelpdeskSystem.Infrastructure\\HelpdeskSystem.Infrastructure.csproj|solutionrelative:helpdesksystem.infrastructure\\repositories\\ticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD57EF10-9845-1161-34B6-08DBDE328E9A}|HelpdeskSystem.Infrastructure\\HelpdeskSystem.Infrastructure.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD57EF10-9845-1161-34B6-08DBDE328E9A}|HelpdeskSystem.Infrastructure\\HelpdeskSystem.Infrastructure.csproj|solutionrelative:helpdesksystem.infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD57EF10-9845-1161-34B6-08DBDE328E9A}|HelpdeskSystem.Infrastructure\\HelpdeskSystem.Infrastructure.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.infrastructure\\identity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD57EF10-9845-1161-34B6-08DBDE328E9A}|HelpdeskSystem.Infrastructure\\HelpdeskSystem.Infrastructure.csproj|solutionrelative:helpdesksystem.infrastructure\\identity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE5D6C9-63FE-4411-C0C9-B24CDB02372D}|HelpdeskSystem.Application\\HelpdeskSystem.Application.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.application\\dtos\\createticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE5D6C9-63FE-4411-C0C9-B24CDB02372D}|HelpdeskSystem.Application\\HelpdeskSystem.Application.csproj|solutionrelative:helpdesksystem.application\\dtos\\createticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE5D6C9-63FE-4411-C0C9-B24CDB02372D}|HelpdeskSystem.Application\\HelpdeskSystem.Application.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.application\\dtos\\ticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE5D6C9-63FE-4411-C0C9-B24CDB02372D}|HelpdeskSystem.Application\\HelpdeskSystem.Application.csproj|solutionrelative:helpdesksystem.application\\dtos\\ticketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE5D6C9-63FE-4411-C0C9-B24CDB02372D}|HelpdeskSystem.Application\\HelpdeskSystem.Application.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.application\\interfaces\\iticketcommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE5D6C9-63FE-4411-C0C9-B24CDB02372D}|HelpdeskSystem.Application\\HelpdeskSystem.Application.csproj|solutionrelative:helpdesksystem.application\\interfaces\\iticketcommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE5D6C9-63FE-4411-C0C9-B24CDB02372D}|HelpdeskSystem.Application\\HelpdeskSystem.Application.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.application\\interfaces\\iticketcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE5D6C9-63FE-4411-C0C9-B24CDB02372D}|HelpdeskSystem.Application\\HelpdeskSystem.Application.csproj|solutionrelative:helpdesksystem.application\\interfaces\\iticketcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CE5D6C9-63FE-4411-C0C9-B24CDB02372D}|HelpdeskSystem.Application\\HelpdeskSystem.Application.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.application\\interfaces\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE5D6C9-63FE-4411-C0C9-B24CDB02372D}|HelpdeskSystem.Application\\HelpdeskSystem.Application.csproj|solutionrelative:helpdesksystem.application\\interfaces\\iticketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55AB756B-FBFD-C36D-FBEF-A2818A2899DA}|HelpdeskSystem.Domain\\HelpdeskSystem.Domain.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.domain\\entities\\ticketcomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55AB756B-FBFD-C36D-FBEF-A2818A2899DA}|HelpdeskSystem.Domain\\HelpdeskSystem.Domain.csproj|solutionrelative:helpdesksystem.domain\\entities\\ticketcomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55AB756B-FBFD-C36D-FBEF-A2818A2899DA}|HelpdeskSystem.Domain\\HelpdeskSystem.Domain.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.domain\\entities\\ticketcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55AB756B-FBFD-C36D-FBEF-A2818A2899DA}|HelpdeskSystem.Domain\\HelpdeskSystem.Domain.csproj|solutionrelative:helpdesksystem.domain\\entities\\ticketcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55AB756B-FBFD-C36D-FBEF-A2818A2899DA}|HelpdeskSystem.Domain\\HelpdeskSystem.Domain.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.domain\\entities\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55AB756B-FBFD-C36D-FBEF-A2818A2899DA}|HelpdeskSystem.Domain\\HelpdeskSystem.Domain.csproj|solutionrelative:helpdesksystem.domain\\entities\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55AB756B-FBFD-C36D-FBEF-A2818A2899DA}|HelpdeskSystem.Domain\\HelpdeskSystem.Domain.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55AB756B-FBFD-C36D-FBEF-A2818A2899DA}|HelpdeskSystem.Domain\\HelpdeskSystem.Domain.csproj|solutionrelative:helpdesksystem.domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55AB756B-FBFD-C36D-FBEF-A2818A2899DA}|HelpdeskSystem.Domain\\HelpdeskSystem.Domain.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.domain\\enums\\ticketpriority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55AB756B-FBFD-C36D-FBEF-A2818A2899DA}|HelpdeskSystem.Domain\\HelpdeskSystem.Domain.csproj|solutionrelative:helpdesksystem.domain\\enums\\ticketpriority.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55AB756B-FBFD-C36D-FBEF-A2818A2899DA}|HelpdeskSystem.Domain\\HelpdeskSystem.Domain.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.domain\\enums\\ticketstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55AB756B-FBFD-C36D-FBEF-A2818A2899DA}|HelpdeskSystem.Domain\\HelpdeskSystem.Domain.csproj|solutionrelative:helpdesksystem.domain\\enums\\ticketstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55AB756B-FBFD-C36D-FBEF-A2818A2899DA}|HelpdeskSystem.Domain\\HelpdeskSystem.Domain.csproj|c:\\users\\dilshad.ibrahimli\\desktop\\projects\\helpdesksystem.web\\helpdesksystem.domain\\helpdesksystem.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{55AB756B-FBFD-C36D-FBEF-A2818A2899DA}|HelpdeskSystem.Domain\\HelpdeskSystem.Domain.csproj|solutionrelative:helpdesksystem.domain\\helpdesksystem.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 339,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReportEndPoints.cs",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Web\\ReportEndPoints.cs",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Web\\ReportEndPoints.cs",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Web\\ReportEndPoints.cs",
+              "RelativeToolTip": "HelpdeskSystem.Web\\ReportEndPoints.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T12:53:24.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IPdfReportService.cs",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Application\\Interfaces\\IPdfReportService.cs",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Application\\Interfaces\\IPdfReportService.cs",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Application\\Interfaces\\IPdfReportService.cs",
+              "RelativeToolTip": "HelpdeskSystem.Application\\Interfaces\\IPdfReportService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T08:53:49.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Web\\Program.cs",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Web\\Program.cs",
+              "RelativeToolTip": "HelpdeskSystem.Web\\Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAiwDcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T06:34:03.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PdfReportService.cs",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Infrastructure\\Services\\PdfReportService.cs",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Infrastructure\\Services\\PdfReportService.cs",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Infrastructure\\Services\\PdfReportService.cs",
+              "RelativeToolTip": "HelpdeskSystem.Infrastructure\\Services\\PdfReportService.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAmwHkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T08:55:32.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HelpdeskSystem.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Infrastructure\\HelpdeskSystem.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Infrastructure\\HelpdeskSystem.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Infrastructure\\HelpdeskSystem.Infrastructure.csproj",
+              "RelativeToolTip": "HelpdeskSystem.Infrastructure\\HelpdeskSystem.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-30T06:25:48.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateTicket.razor",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Web\\Components\\Pages\\CreateTicket.razor",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Web\\Components\\Pages\\CreateTicket.razor",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Web\\Components\\Pages\\CreateTicket.razor",
+              "RelativeToolTip": "HelpdeskSystem.Web\\Components\\Pages\\CreateTicket.razor",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAswHAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-30T07:27:51.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HelpdeskSystem.Web.csproj",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Web\\HelpdeskSystem.Web.csproj",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Web\\HelpdeskSystem.Web.csproj",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Web\\HelpdeskSystem.Web.csproj",
+              "RelativeToolTip": "HelpdeskSystem.Web\\HelpdeskSystem.Web.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-30T06:33:15.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AllTickets.razor",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Web\\Components\\Pages\\AllTickets.razor",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Web\\Components\\Pages\\AllTickets.razor",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Web\\Components\\Pages\\AllTickets.razor",
+              "RelativeToolTip": "HelpdeskSystem.Web\\Components\\Pages\\AllTickets.razor",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAgwFAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-30T07:37:50.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NotificationHub.cs",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Web\\Hubs\\NotificationHub.cs",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Web\\Hubs\\NotificationHub.cs",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Web\\Hubs\\NotificationHub.cs",
+              "RelativeToolTip": "HelpdeskSystem.Web\\Hubs\\NotificationHub.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T08:35:04.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MyTickets.razor",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Web\\Components\\Pages\\MyTickets.razor",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Web\\Components\\Pages\\MyTickets.razor",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Web\\Components\\Pages\\MyTickets.razor",
+              "RelativeToolTip": "HelpdeskSystem.Web\\Components\\Pages\\MyTickets.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-30T07:36:48.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TicketDetails.razor",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Web\\Components\\Pages\\TicketDetails.razor",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Web\\Components\\Pages\\TicketDetails.razor",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Web\\Components\\Pages\\TicketDetails.razor",
+              "RelativeToolTip": "HelpdeskSystem.Web\\Components\\Pages\\TicketDetails.razor",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAwH4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-30T08:12:42.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdminDashboard.razor",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Web\\Components\\Pages\\AdminDashboard.razor",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Web\\Components\\Pages\\AdminDashboard.razor",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Web\\Components\\Pages\\AdminDashboard.razor",
+              "RelativeToolTip": "HelpdeskSystem.Web\\Components\\Pages\\AdminDashboard.razor",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAwIEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-30T08:00:14.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TicketStatsService.cs",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Application\\Services\\TicketStatsService.cs",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Application\\Services\\TicketStatsService.cs",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Application\\Services\\TicketStatsService.cs",
+              "RelativeToolTip": "HelpdeskSystem.Application\\Services\\TicketStatsService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T07:51:01.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ITicketStatsService.cs",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Application\\Interfaces\\ITicketStatsService.cs",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Application\\Interfaces\\ITicketStatsService.cs",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Application\\Interfaces\\ITicketStatsService.cs",
+              "RelativeToolTip": "HelpdeskSystem.Application\\Interfaces\\ITicketStatsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T07:50:13.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TicketStatsDto.cs",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Application\\DTOs\\TicketStatsDto.cs",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Application\\DTOs\\TicketStatsDto.cs",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Application\\DTOs\\TicketStatsDto.cs",
+              "RelativeToolTip": "HelpdeskSystem.Application\\DTOs\\TicketStatsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T07:49:50.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HelpdeskSystem.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Application\\HelpdeskSystem.Application.csproj",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Application\\HelpdeskSystem.Application.csproj",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Application\\HelpdeskSystem.Application.csproj",
+              "RelativeToolTip": "HelpdeskSystem.Application\\HelpdeskSystem.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-30T06:23:31.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DbSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Infrastructure\\Persistence\\DbSeeder.cs",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Infrastructure\\Persistence\\DbSeeder.cs",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Infrastructure\\Persistence\\DbSeeder.cs",
+              "RelativeToolTip": "HelpdeskSystem.Infrastructure\\Persistence\\DbSeeder.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAUwDgAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T06:45:59.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Web\\wwwroot\\app.css",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Web\\wwwroot\\app.css",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Web\\wwwroot\\app.css",
+              "RelativeToolTip": "HelpdeskSystem.Web\\wwwroot\\app.css",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAEoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-07-30T07:31:24.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Web\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Web\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Web\\Components\\_Imports.razor",
+              "RelativeToolTip": "HelpdeskSystem.Web\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-30T07:23:45.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Web\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Web\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Web\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "HelpdeskSystem.Web\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAABMAAAAAAAAAAAAUwFcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-30T07:20:55.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IdentityEndpoints.cs",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Web\\IdentityEndpoints.cs",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Web\\IdentityEndpoints.cs",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Web\\IdentityEndpoints.cs",
+              "RelativeToolTip": "HelpdeskSystem.Web\\IdentityEndpoints.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwCwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T07:07:02.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Web\\Components\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Web\\Components\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Web\\Components\\Pages\\Login.razor",
+              "RelativeToolTip": "HelpdeskSystem.Web\\Components\\Pages\\Login.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-30T06:48:51.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20260730064409_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Infrastructure\\Migrations\\20260730064409_InitialCreate.cs",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Infrastructure\\Migrations\\20260730064409_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Infrastructure\\Migrations\\20260730064409_InitialCreate.cs",
+              "RelativeToolTip": "HelpdeskSystem.Infrastructure\\Migrations\\20260730064409_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T06:44:09.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Web\\appsettings.json",
+              "RelativeToolTip": "HelpdeskSystem.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-30T06:32:42.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TicketCommentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Infrastructure\\Repositories\\TicketCommentRepository.cs",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Infrastructure\\Repositories\\TicketCommentRepository.cs",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Infrastructure\\Repositories\\TicketCommentRepository.cs",
+              "RelativeToolTip": "HelpdeskSystem.Infrastructure\\Repositories\\TicketCommentRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T06:31:53.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TicketCategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Infrastructure\\Repositories\\TicketCategoryRepository.cs",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Infrastructure\\Repositories\\TicketCategoryRepository.cs",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Infrastructure\\Repositories\\TicketCategoryRepository.cs",
+              "RelativeToolTip": "HelpdeskSystem.Infrastructure\\Repositories\\TicketCategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T06:31:40.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TicketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Infrastructure\\Repositories\\TicketRepository.cs",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Infrastructure\\Repositories\\TicketRepository.cs",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Infrastructure\\Repositories\\TicketRepository.cs",
+              "RelativeToolTip": "HelpdeskSystem.Infrastructure\\Repositories\\TicketRepository.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAA6wEkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T06:31:21.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Infrastructure\\Persistence\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Infrastructure\\Persistence\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Infrastructure\\Persistence\\AppDbContext.cs",
+              "RelativeToolTip": "HelpdeskSystem.Infrastructure\\Persistence\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T06:30:04.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Infrastructure\\Identity\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Infrastructure\\Identity\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Infrastructure\\Identity\\ApplicationUser.cs",
+              "RelativeToolTip": "HelpdeskSystem.Infrastructure\\Identity\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T06:29:37.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CreateTicketDto.cs",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Application\\DTOs\\CreateTicketDto.cs",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Application\\DTOs\\CreateTicketDto.cs",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Application\\DTOs\\CreateTicketDto.cs",
+              "RelativeToolTip": "HelpdeskSystem.Application\\DTOs\\CreateTicketDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T06:25:22.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "TicketDto.cs",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Application\\DTOs\\TicketDto.cs",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Application\\DTOs\\TicketDto.cs",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Application\\DTOs\\TicketDto.cs",
+              "RelativeToolTip": "HelpdeskSystem.Application\\DTOs\\TicketDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T06:25:07.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ITicketCommentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Application\\Interfaces\\ITicketCommentRepository.cs",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Application\\Interfaces\\ITicketCommentRepository.cs",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Application\\Interfaces\\ITicketCommentRepository.cs",
+              "RelativeToolTip": "HelpdeskSystem.Application\\Interfaces\\ITicketCommentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T06:24:41.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ITicketCategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Application\\Interfaces\\ITicketCategoryRepository.cs",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Application\\Interfaces\\ITicketCategoryRepository.cs",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Application\\Interfaces\\ITicketCategoryRepository.cs",
+              "RelativeToolTip": "HelpdeskSystem.Application\\Interfaces\\ITicketCategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T06:24:25.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ITicketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Application\\Interfaces\\ITicketRepository.cs",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Application\\Interfaces\\ITicketRepository.cs",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Application\\Interfaces\\ITicketRepository.cs",
+              "RelativeToolTip": "HelpdeskSystem.Application\\Interfaces\\ITicketRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T06:24:05.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "TicketComment.cs",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Domain\\Entities\\TicketComment.cs",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Domain\\Entities\\TicketComment.cs",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Domain\\Entities\\TicketComment.cs",
+              "RelativeToolTip": "HelpdeskSystem.Domain\\Entities\\TicketComment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T06:22:20.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "TicketCategory.cs",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Domain\\Entities\\TicketCategory.cs",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Domain\\Entities\\TicketCategory.cs",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Domain\\Entities\\TicketCategory.cs",
+              "RelativeToolTip": "HelpdeskSystem.Domain\\Entities\\TicketCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T06:22:06.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Domain\\Entities\\Ticket.cs",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Domain\\Entities\\Ticket.cs",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Domain\\Entities\\Ticket.cs",
+              "RelativeToolTip": "HelpdeskSystem.Domain\\Entities\\Ticket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T06:21:52.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Domain\\Enums\\UserRole.cs",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Domain\\Enums\\UserRole.cs",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Domain\\Enums\\UserRole.cs",
+              "RelativeToolTip": "HelpdeskSystem.Domain\\Enums\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T06:21:35.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "TicketPriority.cs",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Domain\\Enums\\TicketPriority.cs",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Domain\\Enums\\TicketPriority.cs",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Domain\\Enums\\TicketPriority.cs",
+              "RelativeToolTip": "HelpdeskSystem.Domain\\Enums\\TicketPriority.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T06:21:20.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "TicketStatus.cs",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Domain\\Enums\\TicketStatus.cs",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Domain\\Enums\\TicketStatus.cs",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Domain\\Enums\\TicketStatus.cs",
+              "RelativeToolTip": "HelpdeskSystem.Domain\\Enums\\TicketStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T06:21:08.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "HelpdeskSystem.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Domain\\HelpdeskSystem.Domain.csproj",
+              "RelativeDocumentMoniker": "HelpdeskSystem.Domain\\HelpdeskSystem.Domain.csproj",
+              "ToolTip": "C:\\Users\\dilshad.ibrahimli\\Desktop\\Projects\\HelpdeskSystem.Web\\HelpdeskSystem.Domain\\HelpdeskSystem.Domain.csproj",
+              "RelativeToolTip": "HelpdeskSystem.Domain\\HelpdeskSystem.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-30T06:20:29.927Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

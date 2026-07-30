@@ -1,0 +1,33 @@
+﻿@page "/login"
+
+<PageTitle>Daxil ol</PageTitle>
+
+<div class="login-container">
+    <h3>Helpdesk Sisteminə Daxil Ol</h3>
+
+    @if (HttpContext?.Request.Query.ContainsKey("error") == true)
+    {
+        <p class="text-danger">Email və ya şifrə səhvdir</p>
+    }
+
+    <form method="post" action="/Account/Login">
+        <input type="hidden" name="returnUrl" value="/" />
+
+        <div class="mb-3">
+            <label>Email</label>
+            <input type="text" name="email" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label>Şifrə</label>
+            <input type="password" name="password" class="form-control" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Daxil ol</button>
+    </form>
+</div>
+
+@code {
+    [CascadingParameter]
+    private HttpContext? HttpContext { get; set; }
+}

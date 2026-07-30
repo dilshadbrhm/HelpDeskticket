@@ -1,0 +1,147 @@
+﻿@page "/all-tickets"
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Identity
+@using HelpdeskSystem.Infrastructure.Identity
+@using HelpdeskSystem.Application.Interfaces
+@using HelpdeskSystem.Domain.Entities
+@using HelpdeskSystem.Domain.Enums
+@using Microsoft.AspNetCore.SignalR.Client
+@attribute [Authorize(Roles = "Agent,Admin")]
+@rendermode InteractiveServer
+@implements IAsyncDisposable
+@inject ITicketRepository TicketRepository
+@inject UserManager<ApplicationUser> UserManager
+@inject AuthenticationStateProvider AuthProvider
+@inject NavigationManager NavManager
+
+<PageTitle>Bütün Tiketlər</PageTitle>
+
+<h3>Bütün Tiketlər</h3>
+
+@if (!string.IsNullOrEmpty(notification))
+{
+    <div class="alert alert-info">@notification</div>
+}
+
+@if (tickets == null)
+{
+    <p>Yüklənir...</p>
+}
+else if (!tickets.Any())
+{
+    <p>Heç bir tiket yoxdur.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Başlıq</th>
+                <th>Kateqoriya</th>
+                <th>Prioritet</th>
+                <th>Status</th>
+                <th>Təyin olunan</th>
+                <th>Tarix</th>
+                <th>Əməliyyat</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var ticket in tickets)
+            {
+                <tr>
+                    <td><a href="/ticket/@ticket.Id">@ticket.Title</a></td>
+                    <td>@ticket.Category?.Name</td>
+                    <td>@ticket.Priority</td>
+                    <td>@ticket.Status</td>
+                    <td>@(string.IsNullOrEmpty(ticket.AssignedAgentId) ? "Təyin olunmayıb" : "Təyin olunub")</td>
+                    <td>@ticket.CreatedAt.ToString("dd.MM.yyyy HH:mm")</td>
+                    <td>
+                        @if (string.IsNullOrEmpty(ticket.AssignedAgentId))
+                        {
+                            <button class="btn btn-sm btn-primary" @onclick="() => AssignToMe(ticket.Id)">
+                                Üzərimə götür
+                            </button>
+                        }
+                        else
+                        {
+                            <InputSelect class="form-select form-select-sm" Value="ticket.Status" ValueChanged="(TicketStatus s) => ChangeStatus(ticket.Id, s)" ValueExpression="() => ticket.Status">
+                                <option value="@TicketStatus.Open">Açıq</option>
+                                <option value="@TicketStatus.InProgress">Baxılır</option>
+                                <option value="@TicketStatus.Resolved">Həll olundu</option>
+                                <option value="@TicketStatus.Closed">Bağlandı</option>
+                            </InputSelect>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Ticket>? tickets;
+    private string? currentUserId;
+    private HubConnection? hubConnection;
+    private string? notification;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authState = await AuthProvider.GetAuthenticationStateAsync();
+        currentUserId = UserManager.GetUserId(authState.User);
+        await LoadTickets();
+
+        hubConnection = new HubConnectionBuilder()
+            .WithUrl(NavManager.ToAbsoluteUri("/notificationHub"))
+            .Build();
+
+        hubConnection.On<string>("NewTicket", async (title) =>
+        {
+            notification = $"Yeni tiket yaradıldı: {title}";
+            await LoadTickets();
+            await InvokeAsync(StateHasChanged);
+        });
+
+        await hubConnection.StartAsync();
+        await hubConnection.SendAsync("JoinGroup", "Agents");
+    }
+
+    private async Task LoadTickets()
+    {
+        tickets = await TicketRepository.GetAllAsync();
+    }
+
+    private async Task AssignToMe(int ticketId)
+    {
+        var ticket = await TicketRepository.GetByIdAsync(ticketId);
+        if (ticket != null && currentUserId != null)
+        {
+            ticket.AssignedAgentId = currentUserId;
+            ticket.Status = TicketStatus.InProgress;
+            await TicketRepository.UpdateAsync(ticket);
+            await LoadTickets();
+        }
+    }
+
+    private async Task ChangeStatus(int ticketId, TicketStatus newStatus)
+    {
+        var ticket = await TicketRepository.GetByIdAsync(ticketId);
+        if (ticket != null)
+        {
+            ticket.Status = newStatus;
+            if (newStatus == TicketStatus.Resolved || newStatus == TicketStatus.Closed)
+            {
+                ticket.ResolvedAt = DateTime.Now;
+            }
+            await TicketRepository.UpdateAsync(ticket);
+            await LoadTickets();
+        }
+    }
+
+    public async ValueTask DisposeAsync()
+    {
+        if (hubConnection is not null)
+        {
+            await hubConnection.DisposeAsync();
+        }
+    }
+}

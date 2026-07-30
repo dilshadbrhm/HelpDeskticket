@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "HelpdeskSystem.Application/1.0.0": {
+        "dependencies": {
+          "HelpdeskSystem.Domain": "1.0.0"
+        },
+        "runtime": {
+          "HelpdeskSystem.Application.dll": {}
+        }
+      },
+      "HelpdeskSystem.Domain/1.0.0": {
+        "runtime": {
+          "HelpdeskSystem.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HelpdeskSystem.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HelpdeskSystem.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
